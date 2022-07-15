@@ -1,5 +1,19 @@
 .mainContainer{
-    width: 100%;
-    background-color:red;
-    height: 625px;
+    max-width:1271px;
+    height: 440px;
+    position: absolute;
+    padding: 106px 0px 79px 95px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+}
+.blogAdd{
+    background-color: #E9E9E9;
+    width: 40px;
+    height:48px;
+    padding: 11px 20px 11px 20px;
+    border-radius:20px;
+    position: fixed;
+    top:604px;
+    left:1150px
 }

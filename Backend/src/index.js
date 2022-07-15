@@ -5,5 +5,9 @@ app.use(express.json());
 
 
 //----------------------------------------------------ROUTES--------------------------------------------//
+const blogController = require('./routes/blog.routes');
+app.use('/blog',blogController);
+
+
 
 module.exports = app;

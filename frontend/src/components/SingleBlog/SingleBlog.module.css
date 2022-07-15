@@ -1,0 +1,33 @@
+.mainContainer {
+  width: 1366px;
+}
+.title {
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+.desBox {
+  width: 919px;
+  margin: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: justify;
+  color: #767676;
+}
+.home{
+  background-color: #E9E9E9;
+  width: 40px;
+  height:48px;
+  padding: 11px 20px 11px 20px;
+  border-radius:20px;
+  position: fixed;
+  top:169px;
+  left:35px
+}

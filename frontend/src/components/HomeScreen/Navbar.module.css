@@ -1,10 +1,9 @@
 .navbarMain{
-position: absolute;
-width: 100%;
+position: sticky;
+width: 1366px;
 height: 143px;
 background: #E9E9E9;
 }
-
 .eqaimBlog{
 position: relative;
 width: 263px;
