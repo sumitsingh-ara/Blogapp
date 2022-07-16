@@ -1,5 +1,6 @@
 import NewBlog from '../Icons/NewBlog.svg'
 import styles from './HomeScreen.module.css';
+import {Link} from 'react-router-dom';
 import {BlogPost} from './BlogPost';
 import {useState,useEffect} from "react";
 export const HomeScreen = () => {
@@ -25,6 +26,6 @@ export const HomeScreen = () => {
       return <BlogPost key={item._id} item={item}/>
     })}
     </>}    
-    <div className={styles.blogAdd}><img src={NewBlog} alt="" /></div>
+    <Link to='/newBlog'><div className={styles.blogAdd}><img src={NewBlog} alt="" /></div></Link>
   </div>;
 };

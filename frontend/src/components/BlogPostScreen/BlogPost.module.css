@@ -1,0 +1,36 @@
+.home{
+    background-color: #E9E9E9;
+    width: 40px;
+    height:48px;
+    padding: 11px 20px 11px 20px;
+    border-radius:20px;
+    position: fixed;
+    top:169px;
+    left:35px
+}
+.publish{
+    background-color: #E9E9E9;
+    width: 40px;
+    height:48px;
+    padding: 11px 20px 11px 20px;
+    border-radius:20px;
+    position: fixed;
+    top:265px;
+    left:35px
+}
+
+.inputBox{
+    width: 979px;
+    margin-left: 226px;
+    margin-top: 31px;
+}
+.inputTitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputTitle input{
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:25px;
+}

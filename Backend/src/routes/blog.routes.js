@@ -1,6 +1,5 @@
 const router = require("express").Router();
 const Blog = require("../models/blog.schema");
-
 //-----------------------------------------------------------CREATE A NEW BLOG
 router.post("/addblog", async (req, res) => {
   try {
@@ -10,6 +9,7 @@ router.post("/addblog", async (req, res) => {
     return res.status(400).send(err.message);
   }
 });
+
 //-------------------------------------------------GET ALL Blogs ------------------------------------------------------------
 router.get("/allblogs", async (req, res) => {
   try {

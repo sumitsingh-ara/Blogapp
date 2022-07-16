@@ -2,6 +2,7 @@ import {useState,useEffect} from "react";
 import {useParams,Link} from 'react-router-dom';
 import styles from './SingleBlog.module.css';
 import Home from '../Icons/Home.svg';
+import parse from "html-react-parser";
 export const SingleBlog = () =>{
     const {id} = useParams();
     const [data,setData] = useState([]);
@@ -25,7 +26,8 @@ export const SingleBlog = () =>{
         <div className={styles.mainContainer}>
             {loading?<h1>Loading...</h1>:error?<h1>Error...</h1>:<>
             <div><h1 className={styles.title}>{data.title}</h1></div>
-            <div className={styles.desBox}>{data.description}</div>
+            <div><img src={data.blogImages} alt="" /></div>
+            <div className={styles.desBox}>{parse(data.description)}</div>
             </>}
             <Link to="/">
             <div className={styles.home}><img src={Home} alt="" /></div>
